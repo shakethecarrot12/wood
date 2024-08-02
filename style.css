@@ -1,3 +1,9 @@
+/*reset*/
+body{
+    margin: unset;
+}
+/*reset*/
+
 .wrapper{
     width: 1304px;
     margin: 300px auto;
@@ -5,17 +11,36 @@
 /*header section*/
 .header{
     background-image: url(images/header-bg.png);
+    height: 539px;
+    color: orange;
+}
+
+.header.border-orange{
+    border-style: solid;
+    border-width: 30px 30px 0 30px;
+    border-color: orange;
+    margin: 0 172px 0 172px;
+    width: 960px;
+    height: 439px;
+}
+
+h1::after{
+    content: ' ';
+    display: block;
+    background-color: orange;
 }
 /*header section*/
 
 /*main section*/
 .main{
     background-color: rgb(233, 112, 112);
+    margin-top: 100px;
 }
 /*main section*/
 
 /*footer section*/
 .footer{
     background-color: rgb(177, 86, 177);
+    margin-top: 100px;
 }
 /*footer section*/
