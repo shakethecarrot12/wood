@@ -1,0 +1,21 @@
+.wrapper{
+    width: 1304px;
+    margin: 300px auto;
+}
+/*header section*/
+.header{
+    background-image: url(images/header-bg.png);
+}
+/*header section*/
+
+/*main section*/
+.main{
+    background-color: rgb(233, 112, 112);
+}
+/*main section*/
+
+/*footer section*/
+.footer{
+    background-color: rgb(177, 86, 177);
+}
+/*footer section*/
