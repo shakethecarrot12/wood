@@ -1,46 +1,138 @@
 /*reset*/
 body{
     margin: unset;
+    padding: unset;
+    background-color: rgb(83, 70, 70);
 }
+h1, p{
+    font-family: arial;
+    font-size:unset;
+    font-style: unset;
+    margin: unset;
+    padding: unset;
+    line-height: 160%;
+    
+}
+
+ul, li{
+    margin:unset;
+    padding:unset;
+    list-style: none;
+    text-align: center;
+}
+
 /*reset*/
 
 .wrapper{
     width: 1304px;
-    margin: 300px auto;
+    margin: 100px auto;
+    
 }
 /*header section*/
 .header{
     background-image: url(images/header-bg.png);
     height: 539px;
     color: orange;
+    overflow: hidden;    
 }
+
 
 .header.border-orange{
     border-style: solid;
     border-width: 30px 30px 0 30px;
     border-color: orange;
-    margin: 0 172px 0 172px;
-    width: 960px;
+    margin: 100px 172px 0 172px;
+    width: 790px;
     height: 439px;
+    padding: 60px 60px;
 }
 
-h1::after{
-    content: ' ';
+.header-image{
+    float: right;
+    margin-top: -289px;
+}
+
+.header-text::before{
+    content: 'OAK ';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.header-text{
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.header-text::after{
+    content: '___________________________ ';
     display: block;
-    background-color: orange;
+    letter-spacing: -5px;
+    margin-top: -46px;
+    margin-bottom: 20px;
+    
 }
 /*header section*/
 
 /*main section*/
 .main{
-    background-color: rgb(233, 112, 112);
-    margin-top: 100px;
+    background-color: #dddddd;
+    height: 344px;
 }
+
+.main-image{
+    width:300px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 3%;  
+    margin-top: 30px;
+}
+.img-radius{
+    border-radius: 3% 3% 0 0;
+}
+.tree-house{
+    margin-left: 172px;
+}
+.furniture{
+    margin-left: 30px;
+}
+.wave-woods{
+    margin-left: 30px;
+}
+
+.main-text{
+    color: #ffa500;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    
+    
+    background-image: url(images/play.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    border-top: 4px solid orange;
+    margin-top: -4px;
+}
+
+
 /*main section*/
 
 /*footer section*/
 .footer{
-    background-color: rgb(177, 86, 177);
-    margin-top: 100px;
+    background-color: #ffffff;
+    height: 54px;
+    text-align: center;
+}
+.footer-text{
+    line-height: 50px;
+    color: #aaaaaa;
+    letter-spacing: 5px;
+    border-top: 2px solid #aaaaaa;
+
+    font-size: 14px;
+    font-weight: bold;
 }
 /*footer section*/
